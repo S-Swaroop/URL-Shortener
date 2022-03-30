@@ -1,5 +1,0 @@
-short-api.snipd.io {
-  reverse_proxy url-shortener-server:4000  {
-    header_down Strict-Transport-Security max-age=31536000;
-   }
-}
